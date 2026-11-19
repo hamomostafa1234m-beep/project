@@ -1,0 +1,145 @@
+h1 {
+    color: #0f21e7;
+    font-size: 36px;
+    text-align: center;
+}
+h3{
+    color: black;
+}
+p{
+    font-size: 18px;
+    line-height: 1.6;
+}
+button{
+    background-color: #1d4ecd;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: #0b2669;
+}
+a {
+    color: #2559dc;
+    text-decoration: none;
+}
+a:hover {
+    color: #0c2461;
+}
+h1,
+h2,
+h3,
+p{
+    margin-bottom: 10px;
+    margin-right: 40px;
+}
+button{
+    margin-bottom: 12px;
+}
+form {
+    margin-top: 24px;
+}
+#hero {
+    background-color: white;
+    padding: 28px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.badge {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background-color: #1d4ed8;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-family: 14px;
+}
+.highlight {
+    color: #0d0d0d;
+    font-weight: bold;
+}
+.card{
+    background-color: white;
+    padding: 28px;
+    border-radius:12px;
+    width: 30%;
+}
+.card img{
+    width: 100%;
+    border-radius: 12px;
+}
+.cards-container {
+    display: flex;
+    gap: 20px; ;
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 6px;
+}
+input {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+input:focus {
+    outline: none;
+    border-color: #1d4ed8;
+    background-color: #eef4ff;
+}
+#hero img {
+    width: 250px;
+    border-radius: 10px;
+}
+section {
+    margin-top: 40px;
+}
+.navbar {
+    background-color: white;
+    padding: 20px 32px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar h2{
+    color: #1d4ed8;
+}
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+.nav-links a{
+    color: #111827;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-links a:hover {
+    color: #1d4ed8;
+}
+.banner {
+    position: relative;
+    margin-top: 40px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.banner img {
+    width: 100%;
+    display: block;
+}
+.banner-text {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    color: white;
+    max-width: 400px;
+}
